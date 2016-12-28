@@ -92,6 +92,7 @@ const RouteTransition = React.createClass({
         styles={this.getStyles()}
         willEnter={this.willEnter}
         willLeave={this.willLeave}
+        onFinished={this.props.onFinished}
       >
         {this.renderRoutes}
       </TransitionMotion>

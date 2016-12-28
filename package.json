@@ -1,6 +1,6 @@
 {
   "name": "react-router-transition",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A thin layer over react-motion for animating routes in react-router.",
   "main": "lib/react-router-transition.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maisano/react-router-transition.git"
+    "url": "https://github.com/leonascimento/react-router-transition.git"
   },
   "keywords": [
     "react",
@@ -25,14 +25,14 @@
   "author": "maisano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maisano/react-router-transition/issues"
+    "url": "https://github.com/leonascimento/react-router-transition/issues"
   },
-  "homepage": "https://github.com/maisano/react-router-transition#readme",
+  "homepage": "https://github.com/leonascimento/react-router-transition#readme",
   "peerDependencies": {
     "react": ">=0.13.2 || ^0.14"
   },
   "dependencies": {
-    "react-motion": "^0.4.2"
+    "react-motion": "https://github.com/leonascimento/react-motion/archive/0.5.0.tar.gz"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",

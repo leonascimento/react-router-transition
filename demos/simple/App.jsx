@@ -35,6 +35,7 @@ const App = React.createClass({
           atEnter={{ opacity: 0 }}
           atLeave={{ opacity: 0 }}
           atActive={{ opacity: 1 }}
+          onFinished={() => { console.log('onFinished') }}
         >
           {this.props.children}
         </RouteTransition>
