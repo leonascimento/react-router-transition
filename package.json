@@ -1,6 +1,6 @@
 {
   "name": "react-router-transition",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A thin layer over react-motion for animating routes in react-router.",
   "main": "lib/react-router-transition.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "react": ">=0.13.2 || ^0.14"
   },
   "dependencies": {
-    "react-motion": "https://github.com/leonascimento/react-motion/archive/0.5.0.tar.gz"
+    "react-motion": "https://github.com/leonascimento/react-motion"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
